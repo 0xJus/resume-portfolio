@@ -8,7 +8,7 @@ export const DATA = {
   location: "Rochester, NY",
   locationLink: "https://www.google.com/maps/place/rochester",
   description:
-    "Junior Software Engineer & Creative Designer.",
+    "Junior Software Engineer & Creative Designer. ",
   summary:
     "As a recent college graduate, I spend my free time creating digital applications and services that merge technology, design, and marketing into one. Over the years, I have acquired experience in web development, automation, brand strategy, and content creation and I am highly skilled in leading projects from concept to execution, whether developing web applications, or designing compelling visuals. I always find myself seeking new challenges that spark new creativity and innovation.",
   avatarUrl: "/me.jpg",
@@ -28,7 +28,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    
   ],
   contact: {
     email: "stennettjustin55@gamil.com",
@@ -48,19 +48,12 @@ export const DATA = {
 
         navbar: true,
       },
-      X: {
-        name: "X",
-        url: "https://x.com/0xJusto",
-        icon: Icons.x,
+      Linktree: {
+        name: "Linktree",
+        url: "https://linktr.ee/0xjusto",
+        icon: Icons.globe,
 
         navbar: true,
-      },
-      email: {
-        name: "Send Email",
-        url: "#",
-        icon: Icons.email,
-
-        navbar: false,
       },
     },
   },
@@ -83,7 +76,7 @@ export const DATA = {
       href: "https://nomorepromisesny.com/",
       badges: [],
       location: "Rochester, NY",
-      title: "Creative Director / Marketing Manager",
+      title: "Creative Designer / Marketing Manager",
       logoUrl: "/nmp.png",
       start: "June 2020",
       end: "Present",
@@ -116,7 +109,7 @@ export const DATA = {
       dates: "Jan 2025 - Present",
       active: true,
       description:
-        "Designed and developed a quick web service that achieved it's functionality as a community database for the Pokemon Trading Card Game Pocket in-game God Packs",
+        "Designed and developed a quick web service that achieved it's functionality as a community database for the Pokemon Trading Card Game Pocket in-game God Packs and implemented Discord OAuthV2 to protect API routes",
       technologies: [
         "HTML",
         "CSS",
@@ -137,17 +130,17 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/ptcgp.png",
+      image: "/software-projects/ptcgp.png",
     },
     {
       title: "Automated Greenhouse System",
-      href: "https://magicui.design",
+      href: "",
       dates: "January 2023 - February 2023",
       active: true,
       description:
-        "Designed and developed an automated greenhouse control system to monitor and regulate environmental conditions, using a Raspberry Pi. Developed a responsive web interface using React to provide users with remote access to system data and controls.",
+        "Designed and developed an automated greenhouse control system to monitor and regulate environmental conditions, using a Raspberry Pi as a host server. I developed a responsive web interface using React to provide users with remote access to system data and controls of their greenhouse.",
       technologies: [
-        "HTML",
+        "React",
         "CSS",
         "Python",
         "JavaScript",
@@ -157,7 +150,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: "",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -165,7 +158,7 @@ export const DATA = {
     },
     {
       title: "Online Learning Web Service",
-      href: "https://magicui.design",
+      href: "",
       dates: "September 2024 - December 2024",
       active: true,
       description:
@@ -189,22 +182,64 @@ export const DATA = {
     },
     {
       title: "Kahoot Replica ( work in progress )",
-      href: "https://magicui.design",
-      dates: "September 2022 - May 2023",
+      href: "",
+      dates: "January 2025 - February 2025",
       active: true,
       description:
-        "Engaged in Scrum and Agile development methodology, actively participating in weekly stands-up and bi-weekly sprints to manage team progress effectively, tracked through Trello. Used Java to develop a back-end structure.",
+        "In the process of re-creating a personal Kahoot Replica to make custom quizzes so I can play with family and friends using WebSockets.",
       technologies: [
-        "Java",
+        "React",
+        "CSS",
         "PostgreSQL",
-        "JUnit",
-        "Postman",
         "Git",
       ],
       links: [
         {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: "",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/software-projects/kahoot.png",
+
+    },
+    {
+      title: "Old School RuneScape Script ", 
+      href: "https://magicui.design",
+      dates: "October 2024 - November 2024",
+      active: true,
+      description:
+        "This simple Python script that automates flipping items in the OSRS Grand Exchange using the OSRS RuneLite client application along with the Flipping CoPilot RuneLite plugin. ",
+      technologies: [
+        "Python",
+        "CLI",
+        "Git",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/0xJus/jFlipper-OSRS",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/software-projects/jflipper.png",
+
+    },
+    {
+      title: "Instagram Follower Bot ", 
+      href: "https://magicui.design",
+      dates: "September 2022 - May 2023",
+      active: true,
+      description:
+        "A Java application that used headless browsers to login and generate organic activity on Instagram allowing for organic follower growth for the account. ",
+      technologies: [
+        "Java",
+        "CLI",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/0xJus/instabot",
           icon: <Icons.github className="size-3" />,
         },
       ],

@@ -115,7 +115,6 @@ export default function Page() {
         <div className="space-y-12 w-full py-12">
           <div className="flex flex-col items-center justify-center text-center">
             <h3 className="text-xl font-bold">Graphic & Fashion Designs</h3>
-            <h4 className="text-lg text-gray-500">2022-2025</h4>
           </div>
           <section id="designs">
             <div className="columns-2 gap-4 sm:columns-3">
@@ -177,7 +176,6 @@ export default function Page() {
           </section>
           <div className="flex flex-col items-center justify-center text-center">
             <h3 className="text-xl font-bold">Social Media Marketing & Ad Content</h3>
-            <h4 className="text-lg text-gray-500">2023-2024</h4>
           </div>
           <section id="ads" className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             <div className="flex justify-center items-center">
@@ -299,8 +297,7 @@ export default function Page() {
             </div>
           </section>
             <div className="flex flex-col items-center justify-center text-center">
-            <h3 className="text-xl font-bold">Web Development Projects</h3>
-            <h4 className="text-lg text-gray-500">2022-2025</h4>
+            <h3 className="text-xl font-bold">Software Development Projects</h3>
           </div>
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
             {DATA.projects.map((project, id) => (
